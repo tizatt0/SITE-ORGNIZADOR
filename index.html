@@ -4,51 +4,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contagem para a Copa do Mundo 2030</title>
+
+    <title>GoalTime 2030 | Contagem Regressiva para a Copa do Mundo</title>
+
+    <link rel="icon" href="assets/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <div class="overlay"></div>
+    <div class="background"></div>
 
-    <main class="container">
+    <header>
 
-        <h1>🏆 Copa do Mundo 2030</h1>
+        <div class="logo">
 
-        <p class="subtitle">
-            BRASIL
+            ⚽ GoalTime 2030
 
-        </p>
+        </div>
 
-        <div class="countdown">
+        <nav>
 
-            <div class="card">
-                <span id="days">0000</span>
-                <p>Dias</p>
-            </div>
+            <a href="#contador">Contagem</a>
+            <a href="#info">Informações</a>
+            <a href="#timeline">História</a>
+            <a href="#footer">Referências</a>
 
-            <div class="card">
-                <span id="hours">00</span>
-                <p>Horas</p>
-            </div>
+        </nav>
 
-            <div class="card">
-                <span id="minutes">00</span>
-                <p>Minutos</p>
-            </div>
+    </header>
 
-            <div class="card">
-                <span id="seconds">00</span>
-                <p>Segundos</p>
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="tag">
+                🏆 FIFA WORLD CUP 2030
+            </span>
+
+            <h1>
+
+                Contagem Regressiva<br>
+                para a Copa do Mundo 2030
+
+            </h1>
+
+            <p>
+
+                Portugal 🇵🇹 • Espanha 🇪🇸 • Marrocos 🇲🇦
+
+                <br><br>
+
+                Jogos comemorativos também acontecerão no
+                Uruguai 🇺🇾, Argentina 🇦🇷 e Paraguai 🇵🇾.
+
+            </p>
+
+            <div class="buttons">
+
+                <button id="share">
+                    Compartilhar
+                </button>
+
+                <button id="about">
+                    Saiba Mais
+                </button>
+
             </div>
 
         </div>
 
-        <h2 id="message"></h2>
+    </section>
 
-    </main>
+    <section id="contador" class="countdown-section">
+
+        <h2>
+
+            Faltam apenas...
+
+        </h2>
+
+        <div class="countdown">
+
+            <div class="card">
+
+                <span id="days">0000</span>
+
+                <small>Dias</small>
+
+            </div>
+
+            <div class="card">
+
+                <span id="hours">00</span>
+
+                <small>Horas</small>
+
+            </div>
+
+            <div class="card">
+
+                <span id="minutes">00</span>
+
+                <small>Minutos</small>
+
+            </div>
+
+            <div class="card">
+
+                <span id="seconds">00</span>
+
+                <small>Segundos</small>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="progress">
+
+        <h2>
+
+            Caminho até 2030
+
+        </h2>
+
+        <div class="progress-bar">
+
+            <div id="progress-fill"></div>
+
+        </div>
+
+    </section>
+
+    <section id="info" class="info">
+
+        <h2>
+
+            Sobre a Copa do Mundo 2030
+
+        </h2>
+
+        <div class="grid">
+
+            <article class="info-card">
+
+                <h3>🌍 Países-sede</h3>
+
+                <p>
+
+                    Portugal, Espanha e Marrocos receberão a maior parte da competição.
+
+                </p>
+
+            </article>
+
+            <article class="info-card">
+
+                <h3>⚽ Centenário</h3>
+
+                <p>
+
+                    A edição de 2030 celebra os 100 anos da primeira Copa do Mundo.
+
+                </p>
+
+            </article>
+
+            <article class="info-card">
+
+                <h3>🏆 48 Seleções</h3>
+
+                <p>
+
+                    A competição contará com quarenta e oito seleções participantes.
+
+                </p>
+
+            </article>
+
+            <article class="info-card">
+
+                <h3>🎉 Partidas Históricas</h3>
+
+                <p>
+
+                    Jogos inaugurais acontecerão também na América do Sul.
+
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section id="timeline" class="timeline">
+
+        <h2>
+
+            História da Copa
+
+        </h2>
+
+        <div class="timeline-container">
+
+            <div class="time">1930</div>
+            <div class="time">1950</div>
+            <div class="time">1970</div>
+            <div class="time">1994</div>
+            <div class="time">2002</div>
+            <div class="time">2014</div>
+            <div class="time">2022</div>
+            <div class="time active">2030</div>
+
+        </div>
+
+    </section>
+
+    <footer id="footer">
+
+        <h2>
+
+            ⚽ GoalTime 2030
+
+        </h2>
+
+        <p>
+
+            Um projeto desenvolvido para acompanhar cada segundo até o maior evento esportivo do planeta.
+
+        </p>
+
+        <div class="references">
+
+            <h3>Referências</h3>
+
+            <ul>
+
+                <li>
+                    https://www.fifa.com
+                </li>
+
+                <li>
+                    https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_2030
+                </li>
+
+                <li>
+                    https://developer.mozilla.org
+                </li>
+
+                <li>
+                    https://fonts.google.com
+                </li>
+
+            </ul>
+
+        </div>
+
+        <small>
+
+            © 2030 GoalTime • Todos os direitos reservados.
+
+        </small>
+
+    </footer>
 
     <script src="main.js"></script>
 
